@@ -1,5 +1,6 @@
 {
   "name": "batteddatavisualizer",
+  "homepage": "https://deenapederson.github.io/batted-data-visualizer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
