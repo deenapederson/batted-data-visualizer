@@ -15,7 +15,7 @@ export default function useBattedBallData() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('/BattedBallData.csv')
+    fetch(import.meta.env.BASE_URL + '/BattedBallData.csv')
       .then(res => res.text())
       .then(csvText => {
         const lines = csvText.trim().split('\n')
@@ -53,7 +53,7 @@ export default function useBattedBallData() {
 
         setData(filtered)
       })
-      .catch(console.error)
+      .catch((error) => console.error(error))
   }, [])
 
   return data

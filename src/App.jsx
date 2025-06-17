@@ -53,7 +53,7 @@ const BackgroundImage = styled.div`
   height: 1000px;
   top: -30px;
   left: -150px;
-  background-image: url('/—Pngtree—cartoon batting baseball field clipart_6003282.png');
+  background-image: url('/batted-data-visualizer/baseball-field.png');
   background-size: cover;
   background-position: center;
   z-index: 0;
